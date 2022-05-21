@@ -1,0 +1,27 @@
+{
+    "name": "rigidity",
+    "version": "1.7.0",
+    "description": "Rigidity is like solidity",
+    "main": "compiled/index.js",
+    "files": [
+        "compiled/**/*"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ahmetson/rigidity.git"
+    },
+    "author": "Medet Ahmetson <admin@ahmetson.io>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ahmetson/rigidity/issues"
+    },
+    "homepage": "https://github.com/ahmetson/rigidity#readme",
+    "dependencies": {
+        "chevrotain": "^10.1.2",
+        "ts-node": "^10.7.0",
+        "tsc": "^2.0.4"
+    }
+}
