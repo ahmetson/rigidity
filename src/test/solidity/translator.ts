@@ -1,7 +1,7 @@
-import { rigidityLexer } from "../lexer"
-import { rigidityParser } from "../parser"
-import { rigidityVisitor } from "../abstract"
-import { rigidityTranslator } from "../translator"
+import { rigidityLexer } from "../../lexer"
+import { rigidityParser } from "../../parser"
+import { rigidityVisitor } from "../../abstract"
+import { rigidityTranslator } from "../../solidity/translator"
 
 // ONLY ONCE
 const parser = new rigidityParser()

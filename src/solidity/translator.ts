@@ -1,4 +1,4 @@
-import { AstContractHeaderInterface } from "./interfaces/ast-contract-header";
+import { AstContractHeaderInterface } from "../interfaces/ast-contract-header";
 
 
 // Translate the AST into the Solidity code.
