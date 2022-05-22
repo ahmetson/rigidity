@@ -1,6 +1,6 @@
 {
     "name": "rigidity",
-    "version": "1.7.0",
+    "version": "0.4.0",
     "description": "Rigidity is like solidity",
     "main": "compiled/index.js",
     "files": [

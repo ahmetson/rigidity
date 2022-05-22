@@ -1,5 +1,5 @@
-import { CstChildrenDictionary, CstElement, CstNode, CstParser, IToken } from "chevrotain"
-import { rigidityTokenArray, rigidityTokenList } from "./lexer";
+import { CstChildrenDictionary, IToken } from "chevrotain"
+import { AstContractHeaderInterface } from "./interfaces/ast-contract-header";
 import { rigidityParser } from "./parser";
 
 let parser = new rigidityParser();
@@ -45,7 +45,7 @@ class RigidityVisitor extends BaseCstVisitor {
       precomputation: precomputation,
       name: identifier,
       errors: errors
-    }
+    } as AstContractHeaderInterface
   }
 }
 
